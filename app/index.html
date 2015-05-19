@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="HarryApp">
+	<head>
+		<meta charset="UTF-8">
+		<title>This ol' AngularJs app</title>
+		<link rel="stylesheet" href="/css/maincss.css" />
+	</head>
+	<body>
+		<div id="navbar">
+			<div class="navlink"><a href="#/">Back to home</a></div>
+			<div class="navlink"><a href="#/about">To About</a></div>
+			<div class="navlink"><a href="#/starwars">Star Wars</a></div>
+			<div class="navlink"><a href="#/startrek">Star Trek</a></div>
+			<div class="navlink"><a href="#/harrypotter">Harry Potter</a></div>
+		</div>
+		<div data-ng-view>
+			<!-- placeholder for views -->
+		</div>
+		<script src="bundle.js"></script>
+	</body>
+</html>
