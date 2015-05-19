@@ -83,7 +83,7 @@ module.exports = function(grunt) {
 
     watch: {
       express: {
-        files: ['app/js/*.js', 'app/views/**/index.html', 'server.js', 'app/css/*.css', 'app/views/**/*.html'],
+        files: ['app/js/**/*.js', 'app/views/index.html', 'server.js', 'app/css/*.css', 'app/views/**/*.html'],
         tasks: ['clean:dev', 'browserify:dev', 'copy:dev', 'express:dev'],
         options: {
           spawn: false

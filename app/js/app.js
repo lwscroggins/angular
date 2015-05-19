@@ -11,6 +11,8 @@ require('./HarryApp/controllers/aboutcontroller')(HarryApp);
 require('./HarryApp/controllers/warscontroller')(HarryApp);
 require('./HarryApp/controllers/pottercontroller')(HarryApp);
 require('./HarryApp/controllers/trekcontroller')(HarryApp);
+require('./HarryApp/controllers/treecontroller')(HarryApp);
+require('./HarryApp/controllers/sudokucontroller')(HarryApp);
 
 //filters
 
@@ -40,6 +42,14 @@ HarryApp.config(['$routeProvider', function($routeProvider) {
 		.when('/starwars', {
 			templateUrl: '/views/HarryApp/starwars.html',
 			controller: 'warscontroller'
+		})
+		.when('/binarytree', {
+			templateUrl: '/views/HarryApp/binarytree.html',
+			controller: 'treecontroller'
+		})
+		.when('/sudoku', {
+			templateUrl: '/views/HarryApp/sudoku.html',
+			controller: 'sudokucontroller'
 		})
 		.otherwise({
 			redirectTo: '/'

@@ -6,18 +6,17 @@ html, body {
 body {
 	margin: 0 auto;
 	overflow-x: hidden;
-	background: black;
 }
 
 /* index page */
 #navbar {
-	height: 10%;
+	height: 30px;
 	width: 100%;
-	background: white;
+	background: black;
 }
 
 #navbar a {
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
@@ -26,3 +25,17 @@ body {
 	float: left;
 	margin: 5px;
 }
+
+/* home page */
+
+/* about page */
+
+/* star wars page */
+
+/* star trek page */
+
+/* harry potter page */
+
+/* binary tree page */
+
+/* sudoku page */
