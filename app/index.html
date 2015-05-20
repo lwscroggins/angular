@@ -2,21 +2,33 @@
 <html lang="en" data-ng-app="HarryApp">
 	<head>
 		<meta charset="UTF-8">
-		<title>This ol' AngularJs app</title>
+		<title>Larry Scroggins dot net</title>
 		<link rel="stylesheet" href="/css/maincss.css" />
 	</head>
 	<body>
 		<div id="navbar">
 			<div class="navlink"><a href="#/">Home</a></div>
 			<div class="navlink"><a href="#/about">About</a></div>
-			<div class="navlink"><a href="#/starwars">Star Wars</a></div>
-			<div class="navlink"><a href="#/startrek">Star Trek</a></div>
+			<div class="navlink"><a href="#/resume">Resume</a></div>
+			<div class="navlink"><a href="#/fandom">Fandom</a></div>
 			<div class="navlink"><a href="#/harrypotter">Harry Potter</a></div>
 			<div class="navlink"><a href="#/binarytree">Binary Tree Tutorial</a></div>
 			<div class="navlink"><a href="#/sudoku">Sudoku</a></div>
 		</div>
-		<div data-ng-view>
-			<!-- placeholder for views -->
+		<div id="content">
+			<scattercards></scattercards>
+			<scattercards></scattercards>
+			<scattercards></scattercards>
+			<scattercards></scattercards>
+			<scattercards></scattercards>
+			<scattercards></scattercards>
+			<scattercards></scattercards>
+			<scattercards></scattercards>
+			<scattercards></scattercards>
+			<scattercards></scattercards>
+			<div data-ng-view>
+				<!-- placeholder for views -->
+			</div>
 		</div>
 		<script src="bundle.js"></script>
 	</body>

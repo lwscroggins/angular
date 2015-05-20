@@ -6,6 +6,8 @@ html, body {
 body {
 	margin: 0 auto;
 	overflow-x: hidden;
+	background: url(/img/table.jpg);
+	background-size: cover;
 }
 
 /* index page */
@@ -26,16 +28,22 @@ body {
 	margin: 5px;
 }
 
-/* home page */
+#content {
+	height: 800px;
+	width: 1920px;
+}
 
-/* about page */
+.genericcard {
+	position: absolute;
+	background: white;
+	right: 200px;
+}
 
-/* star wars page */
-
-/* star trek page */
-
-/* harry potter page */
-
-/* binary tree page */
-
-/* sudoku page */
+.cardoverlay {
+	position: absolute;
+	background: white;
+	height: 100%;
+	width: 100%;
+	background-size: contain;
+	opacity: .35;
+}
