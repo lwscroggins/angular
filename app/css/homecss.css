@@ -1,3 +1,15 @@
+/* Home Page */
+
+#content {
+	overflow: hidden;
+}
+
+#pageview {
+	position: absolute;
+	left: 400px;
+	top: 100px;
+}
+
 .card {
 	height: 320px;
 	width: 240px;
