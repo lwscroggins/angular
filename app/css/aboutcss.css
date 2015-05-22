@@ -1,0 +1,14 @@
+#navbar {
+	opacity: 1;
+}
+
+#content {
+	display: none;
+}
+
+#about {
+	position: relative;
+	top: 35px;
+	width: 85%;
+	margin: 0 auto;
+}

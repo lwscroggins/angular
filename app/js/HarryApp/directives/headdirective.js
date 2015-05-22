@@ -1,5 +1,3 @@
-'use strict'
-
 module.exports = function(app) {
 	app.directive('head', ['$rootScope','$compile',
 		function($rootScope, $compile){

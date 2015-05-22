@@ -4,18 +4,21 @@ html, body {
 }
 
 body {
+	position: absolute;
+	height: 100%;
+	width: 100%;
 	margin: 0 auto;
 	overflow-x: hidden;
-	background: url(/img/table.jpg);
-	background-size: cover;
 }
 
 /* index page */
 #navbar {
+	position: absolute;
 	height: 30px;
 	width: 100%;
 	background: black;
 	opacity: 0;
+	z-index: 1;
 }
 
 #navbar a {
@@ -30,8 +33,9 @@ body {
 }
 
 #content {
-	height: 800px;
-	width: 1920px;
+	position: absolute;
+	height: 100%;
+	width: 100%;
 }
 
 .genericcard {
@@ -47,4 +51,11 @@ body {
 	width: 100%;
 	background-size: contain;
 	opacity: .35;
+}
+
+#pageview {
+	position: absolute;
+	top: 0px;
+	height: 100%;
+	width: 100%;
 }

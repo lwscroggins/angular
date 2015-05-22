@@ -3,3 +3,153 @@
 #navbar {
 	opacity: 1;
 }
+
+#content {
+	display: none;
+}
+
+#resume {
+	position: relative;
+	top: 35px;
+	width: 85%;
+	margin: 0 auto;
+}
+
+#header {
+	border-bottom: 1px solid black;
+	text-align: center;
+	height: 59px;
+}
+
+#headername {
+	position: relative;
+	font-size: 24px;
+	height: 30px;
+}
+
+#headercontact {
+	position: relative;
+	font-size: 12px;
+	width: 460px;
+	height: 25px;
+	margin: 0 auto;
+	padding-top: 5px;
+}
+
+#address, #contact {
+	position: relative;
+	margin: 0 auto;
+}
+
+#address {
+	float: left;
+}
+
+#contact {
+	float: right;
+}
+
+#phone {
+	position: relative;
+	float: left;
+	padding-right: 10px;
+}
+
+#email {
+	position: relative;
+	float: right;
+}
+
+.section {
+	position: relative;
+	margin-top: 15px;
+}
+
+.sectiontitle {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#competencies {
+	position: relative;
+	margin: 0 auto;
+	width: 50%;
+}
+
+#competencies li {
+	display: inline;
+	position: relative;
+	width: 50%;
+}
+
+#competencies li:nth-child(even) {
+	float: left;
+}
+
+#competencies li:nth-child(odd) {
+	float: right;
+}
+
+.job {
+	margin-top: 20px;
+}
+
+.jobhead, .schoolhead {
+	position: relative;
+	font-weight: bold;
+	height: 20px;
+}
+
+.jobidsection, .schooldetails {
+	position: relative;
+	height: 20px;
+}
+
+.companyname, .jobtitle, .schoolname, .degree{
+	width: 50%;
+	float: left;
+}
+
+.location, .jobdates, .schooldates {
+	text-align: right;
+	width: 25%;
+	float: right;
+}
+
+.jobdescription {
+	position: relative;
+}
+
+ul, li {
+	position: relative;
+	margin: 0;
+}
+
+.school {
+	height: 45px;
+}
+
+#utd {
+	height: 65px;
+}
+
+#utd .schooldetails {
+	height: 40px;
+}
+
+.certification {
+	height: 20px;
+}
+
+.certname {
+	position: relative;
+	width: 40%;
+	float: left;
+}
+
+.certdate, .certissued, .certstatus {
+	position: relative;
+	width: 20%;
+	float: left;
+	text-align: center;
+}

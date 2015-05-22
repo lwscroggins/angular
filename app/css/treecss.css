@@ -1,0 +1,25 @@
+#navbar {
+	opacity: 1;
+	z-index: 1;
+}
+
+#content {
+	display: none;
+}
+
+#tree {
+	position: relative;
+	top: 35px;
+	width: 85%;
+	margin: 0 auto;
+}
+
+.chart .domain {
+	fill: none;
+	stroke-width: 1;
+	stroke: #D4D4D1;
+}
+
+.chart .bar {
+	fill: #56BEEB;
+}

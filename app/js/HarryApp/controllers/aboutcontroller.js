@@ -1,5 +1,3 @@
-'use strict'
-
 module.exports = function(app) {
 	app.controller('aboutcontroller', function($scope) {
 		$scope.whereAmI = function() {
