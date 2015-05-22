@@ -1,7 +1,5 @@
-
-
 module.exports = function(app) {
-	app.directive('something', function() {
+	app.directive('treenode', function() {
 
 	});
 };

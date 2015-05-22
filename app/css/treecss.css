@@ -14,12 +14,11 @@
 	margin: 0 auto;
 }
 
-.chart .domain {
-	fill: none;
-	stroke-width: 1;
-	stroke: #D4D4D1;
+.bar {
+	display: inline-block;
+	width: 20px;
+	height: 75px;
+	margin-right: 2px;
+	background-color: teal;
 }
 
-.chart .bar {
-	fill: #56BEEB;
-}

@@ -1,5 +1,5 @@
 require('angular/angular');
-require('lodash');
+var _ = require('lodash');
 
 var HarryApp = angular.module('HarryApp', [require('angular-route')]);
 
@@ -20,7 +20,7 @@ require('./HarryApp/controllers/sudokucontroller')(HarryApp);
 //directives
 require('./HarryApp/directives/headdirective')(HarryApp);
 require('./HarryApp/directives/indexdirective')(HarryApp);
-// require('./HarryApp/directives/treedirective')(HarryApp);
+require('./HarryApp/directives/treedirective')(HarryApp);
 
 //routes
 HarryApp.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {

@@ -1,9 +1,141 @@
 <div id="sudoku" data-ng-controller="sudokucontroller">Sudoku
-	<div>What I need:
+	<div id="borderbox">
+		<div class="topborder"></div>
+		<div class="topborder">1</div>
+		<div class="topborder">2</div>
+		<div class="topborder">3</div>
+		<div class="topborder">4</div>
+		<div class="topborder">5</div>
+		<div class="topborder">6</div>
+		<div class="topborder">7</div>
+		<div class="topborder">8</div>
+		<div class="topborder">9</div>
+		<div class="leftborder"></div>
+		<div class="leftborder">1</div>
+		<div class="leftborder">2</div>
+		<div class="leftborder">3</div>
+		<div class="leftborder">4</div>
+		<div class="leftborder">5</div>
+		<div class="leftborder">6</div>
+		<div class="leftborder">7</div>
+		<div class="leftborder">8</div>
+		<div class="leftborder">9</div>
+	</div>
+	<div id="dokbox">
+		<div class="row row1">
+			<div class="col col1"></div>
+			<div class="col col2"></div>
+			<div class="col col3"></div>
+			<div class="col col4"></div>
+			<div class="col col5"></div>
+			<div class="col col6"></div>
+			<div class="col col7"></div>
+			<div class="col col8"></div>
+			<div class="col col9"></div>
+		</div>
+		<div class="row row2">
+			<div class="col col1"></div>
+			<div class="col col2"></div>
+			<div class="col col3"></div>
+			<div class="col col4"></div>
+			<div class="col col5"></div>
+			<div class="col col6"></div>
+			<div class="col col7"></div>
+			<div class="col col8"></div>
+			<div class="col col9"></div>
+		</div>
+		<div class="row row3">
+			<div class="col col1"></div>
+			<div class="col col2"></div>
+			<div class="col col3"></div>
+			<div class="col col4"></div>
+			<div class="col col5"></div>
+			<div class="col col6"></div>
+			<div class="col col7"></div>
+			<div class="col col8"></div>
+			<div class="col col9"></div>
+		</div>
+		<div class="row row4">
+			<div class="col col1"></div>
+			<div class="col col2"></div>
+			<div class="col col3"></div>
+			<div class="col col4"></div>
+			<div class="col col5"></div>
+			<div class="col col6"></div>
+			<div class="col col7"></div>
+			<div class="col col8"></div>
+			<div class="col col9"></div>
+		</div>
+		<div class="row row5">
+			<div class="col col1"></div>
+			<div class="col col2"></div>
+			<div class="col col3"></div>
+			<div class="col col4"></div>
+			<div class="col col5"></div>
+			<div class="col col6"></div>
+			<div class="col col7"></div>
+			<div class="col col8"></div>
+			<div class="col col9"></div>
+		</div>
+		<div class="row row6">
+			<div class="col col1"></div>
+			<div class="col col2"></div>
+			<div class="col col3"></div>
+			<div class="col col4"></div>
+			<div class="col col5"></div>
+			<div class="col col6"></div>
+			<div class="col col7"></div>
+			<div class="col col8"></div>
+			<div class="col col9"></div>
+		</div>
+		<div class="row row7">
+			<div class="col col1"></div>
+			<div class="col col2"></div>
+			<div class="col col3"></div>
+			<div class="col col4"></div>
+			<div class="col col5"></div>
+			<div class="col col6"></div>
+			<div class="col col7"></div>
+			<div class="col col8"></div>
+			<div class="col col9"></div>
+		</div>
+		<div class="row row8">
+			<div class="col col1"></div>
+			<div class="col col2"></div>
+			<div class="col col3"></div>
+			<div class="col col4"></div>
+			<div class="col col5"></div>
+			<div class="col col6"></div>
+			<div class="col col7"></div>
+			<div class="col col8"></div>
+			<div class="col col9"></div>
+		</div>
+		<div class="row row9">
+			<div class="col col1"></div>
+			<div class="col col2"></div>
+			<div class="col col3"></div>
+			<div class="col col4"></div>
+			<div class="col col5"></div>
+			<div class="col col6"></div>
+			<div class="col col7"></div>
+			<div class="col col8"></div>
+			<div class="col col9"></div>
+		</div>
+	</div>
+	<div id="startform">
+		<form>
+			<label>Row: </label> <input type="text" required ng-model="inputs.row" />
+			<label>Column: </label> <input type="text" required ng-model="inputs.column" />
+			<label>Number: </label> <input type="number" required ng-model="inputs.number" />
+			<button data-ng-click="setStart()">Submit</button>
+		</form>
+	</div>
+
+	<!-- <div>What I need:
 		<ul>
 			<li>A 9x9 grid</li>
 			<li>A way to put in the starting pattern</li>
 			<li>code to solve and evaluate the pattern</li>
 		</ul>
-	</div>
+	</div> -->
 </div>
