@@ -10,9 +10,12 @@ module.exports = function(app) {
 			var row = "row" + $scope.inputs.row;
 			var column = "col" + $scope.inputs.column;
 			var number = $scope.inputs.number;
-			console.log(row);
-			console.log(column);
-			console.log(number);
+			sudokucell = document.getElementById(row + column);
+			sudokucell.innerHTML = number;
+		};
+
+		$scope.sudSolver = function() {
+			console.log('Ha! You wish.');
 		};
 	});
 };

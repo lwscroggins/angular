@@ -48,6 +48,9 @@
 	position: relative;
 	height: 49px;
 	width: 443px;
+	line-height: 49px;
+	vertical-align: middle;
+	text-align: center;
 	margin: 0;
 }
 
@@ -75,6 +78,12 @@
 }
 
 #startform {
-	position: relative;
-	top: 20px;
+	position: absolute;
+	right: 0px;
+	top: 50px;
+	width: 20%;
+}
+
+form {
+	margin-bottom: 10px;
 }

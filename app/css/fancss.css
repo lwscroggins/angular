@@ -10,5 +10,8 @@
 	position: relative;
 	top: 35px;
 	width: 85%;
+	height: 100%;
 	margin: 0 auto;
+	background: url(/img/movealong.jpg) no-repeat center;
+	background-size: contain;
 }
