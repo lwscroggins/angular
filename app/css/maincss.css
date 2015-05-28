@@ -11,6 +11,10 @@ body {
 	overflow-x: hidden;
 }
 
+.hide {
+	display: none;
+}
+
 /* index page */
 #navbar {
 	position: absolute;

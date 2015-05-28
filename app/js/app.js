@@ -1,6 +1,7 @@
 require('angular/angular');
 var _ = require('lodash');
 
+
 var HarryApp = angular.module('HarryApp', [require('angular-route')]);
 
 //controllers
