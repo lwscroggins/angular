@@ -60,7 +60,7 @@ module.exports = function(grunt) {
                 args: [],
                 nodeArgs: [],
                 env: {
-                    PORT: '4005',
+                    PORT: '4120',
                     NODE_ENV: 'prod'
                 },
                 cwd: __dirname,
